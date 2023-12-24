@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit'
-import { addContact, deleteContact, fetchContacts } from '../servise/serviseApi'
+import { addContact, deleteContact, fetchContacts } from '../../servise/serviseApi'
 
 export const contactSlice = createSlice({
   name: 'contacts',
