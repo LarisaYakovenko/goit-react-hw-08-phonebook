@@ -1,13 +1,14 @@
 import { createSlice } from '@reduxjs/toolkit'
-import { addContact, deleteContact, fetchContacts } from '../../servise/serviseApi'
+import { addContact, deleteContact, fetchContacts } from './operations'
 
-export const contactSlice = createSlice({
-  name: 'contacts',
-  initialState: {
-    items: [],
+const initialState = {
+   items: [],
     isLoading: false,
     error: null,
-  },
+};
+export const contactSlice = createSlice({
+  name: 'contacts',
+  initialState,
   extraReducers: builder => {
     builder.addCase(fetchContacts.pending,(state, action) => {
         state.isLoading = true;
