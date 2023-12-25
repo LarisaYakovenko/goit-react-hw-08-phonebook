@@ -1,14 +1,29 @@
 .container {
-  min-height: calc(100vh - 100px);
+  width: auto;
+  display: flex;
+  min-height: calc(120vh - 20px);
+  position: relative;
+  background-size: contain;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 25px;
+  justify-content: start;
+
+
+  /* background: no-repeat url(../../components/Img/file_3.jpg); */
+
+  background-size: contain;
 }
 
 .title {
-  font-weight: 500;
-  font-size: 48;
-  text-align: center;
+  font-weight: 700;
+  font-size: 54px;
+  text-align: start;
+  color: #270a0a;
+
+  font-style: italic;
+  padding-left: 30px;;
+
+
+
 }

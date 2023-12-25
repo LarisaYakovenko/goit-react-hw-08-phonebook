@@ -14,11 +14,19 @@
 
 .subtitle {
   margin: 25px 0 25px 0;
+  color: #270a0a;
+  font-style: italic;
 }
 
+.title {
+  color: #270a0a;
+  font-style: italic;
+}
 .total {
   margin-bottom: 15px;
   font-weight: 500;
+  color: #270a0a;
+  font-style: italic;
 }
 
 .total_count {
@@ -30,3 +38,5 @@
   color: red;
   font-weight: 500;
 }
+
+

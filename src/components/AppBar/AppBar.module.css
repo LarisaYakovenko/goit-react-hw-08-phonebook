@@ -3,5 +3,7 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 16px;
-  border-bottom: 1px solid #2a363b;
+  border-bottom: 2px solid #6d937c;
+  color: #270a0a;
+    font-style: italic;
 }

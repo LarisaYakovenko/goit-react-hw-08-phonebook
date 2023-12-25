@@ -3,7 +3,7 @@ import css from './Form.module.css';
 
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import { useSelector, useDispatch } from 'react-redux';
-import { addContact } from '../../servise/serviseApi';
+import { addContact } from '../../redux/contacts/operations';
 
 const getContacts = state => state.contacts.items;
 

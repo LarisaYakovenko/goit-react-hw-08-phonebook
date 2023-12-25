@@ -36,14 +36,14 @@ export default function App() {
       <Filter />
       {isLoading && !error && (
         <Circles
-  height="80"
-  width="80"
-  color="#4fa94d"
-  ariaLabel="circles-loading"
-  wrapperStyle={{}}
-  wrapperClass=""
-  visible={true}
-  />
+          height="80"
+          width="80"
+          color="#4fa94d"
+          ariaLabel="circles-loading"
+          wrapperStyle={{}}
+          wrapperClass=""
+          visible={true}
+        />
       )}
       {error && <p className={css.errorMessage}>An error occurred: {error}</p>}
       <ContactList />

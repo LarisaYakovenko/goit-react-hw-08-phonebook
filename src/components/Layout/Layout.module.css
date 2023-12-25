@@ -1,0 +1,10 @@
+.container {
+  max-width: auto;
+  min-height: calc(100vh - 50px);
+  /* background-color: #e0f9e6; */
+  margin: 0 auto;
+  padding: 20px 20px;
+  background: no-repeat url(../../components/Img/file_3.jpg);
+  background-size:  100%;
+
+}
