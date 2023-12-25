@@ -1,5 +1,4 @@
 import css from './Home.module.css';
-import {Paper} from '@mui/material';
 
 export default function Home() {
   return (

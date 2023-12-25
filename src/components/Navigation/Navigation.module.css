@@ -3,11 +3,22 @@
   text-decoration: none;
   padding: 12px;
   font-weight: 700;
-  color: #2a363b;
+  border-radius: 5px;
   color: #270a0a;
   font-style: italic;
 }
 
-.link.active {
+.link:active {
   color: #e84a5f;
+  background: none;
+}
+.nav {
+  background: none;
+
+  
+
+}
+.nav:active {
+  color: #e84a5f;
+  background: none;
 }

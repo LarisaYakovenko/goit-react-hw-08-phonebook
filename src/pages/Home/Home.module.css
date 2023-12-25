@@ -9,8 +9,8 @@
   align-items: center;
   justify-content: start;
 
-
-  /* background: no-repeat url(../../components/Img/file_3.jpg); */
+  
+  background: no-repeat url(../../components/Img/file_3.jpg);
 
   background-size: contain;
 }

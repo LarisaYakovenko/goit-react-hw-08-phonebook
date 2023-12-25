@@ -1,6 +1,5 @@
 import { useDispatch } from 'react-redux';
 import { register } from '../../redux/auth/operations';
-import css from './RegisterForm.module.css';
 import { Button, TextField, Box } from '@mui/material';
 
 export const RegisterForm = () => {
@@ -44,7 +43,7 @@ export const RegisterForm = () => {
           variant="outlined"
           autoComplete="off"
           size="small"
-          
+
         />
         <TextField
           required
